@@ -1,0 +1,14 @@
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\bin\Debug\DAL.dll.config
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\bin\Debug\DAL.dll
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\bin\Debug\DAL.pdb
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\bin\Debug\EntityFramework.dll
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\bin\Debug\EntityFramework.xml
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\obj\Debug\DAL.dll
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\obj\Debug\DAL.pdb
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\obj\Debug\DAL.Migrations.Initial.resources
+C:\Users\USER X\Downloads\WarehouseManagementSystem\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
