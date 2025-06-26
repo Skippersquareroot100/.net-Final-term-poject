@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 
 
-    public class Warehouse
-    {
+public class Warehouse{
+
         [Key]
         public int WarehouseId { get; set; }
 
@@ -19,12 +19,16 @@ using System.Collections.Generic;
 
         public virtual ICollection<Inventory> Inventories { get; set; }
 
+
+
+
         [InverseProperty("OriginWarehouse")]
         public virtual ICollection<Shipment> OriginShipments { get; set; }
 
         [InverseProperty("DestinationWarehouse")]
         public virtual ICollection<Shipment> DestinationShipments { get; set; }
 
+
         public virtual ICollection<Location> Locations { get; set; }
         public virtual ICollection<Notification> Notifications { get; set; }
-    }
+}

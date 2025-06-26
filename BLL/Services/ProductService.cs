@@ -13,8 +13,7 @@ namespace BLL.Services
             return data.Select(p => new ProductDTO
             {
                 ProductId = p.ProductId,
-                Name = p.Name,
-               
+                Name = p.Name,             
                 SKU = p.SKU,
                 UnitPrice = p.UnitPrice,
                 Category = p.Category
@@ -28,8 +27,7 @@ namespace BLL.Services
             return new ProductDTO
             {
                 ProductId = item.ProductId,
-                Name = item.Name,
-                
+                Name = item.Name,             
                 SKU = item.SKU,
                 UnitPrice =item.UnitPrice,
                 Category = item.Category
@@ -41,7 +39,6 @@ namespace BLL.Services
             var obj = new Product
             {
                 Name = dto.Name,
-               
                 SKU = dto.SKU,
                 UnitPrice = dto.UnitPrice,
                 Category = dto.Category
@@ -52,27 +49,13 @@ namespace BLL.Services
             {
                 ProductId = data.ProductId,
                 Name = data.Name,
-           
                 SKU = data.SKU,
                 UnitPrice = data.UnitPrice,
                 Category = data.Category
             };
         }
 
-      /*  public static bool Update(ProductDTO dto)
-        {
-            var obj = new Product
-            {
-                ProductId = dto.ProductId,
-                Name = dto.Name,
-                Description = dto.Description,
-                SKU = dto.SKU,
-                UnitPrice = p.UnitPrice,
-                Category = dto.Category
-            };
-            return DataAccessFactory.ProductDataAccess().Update(obj);
-        }
-      */
+ 
         public static bool Delete(int id)
         {
             return DataAccessFactory.ProductDataAccess().Delete(id);

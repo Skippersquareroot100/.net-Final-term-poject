@@ -37,16 +37,6 @@ namespace AppApi.Controllers
             return Request.CreateResponse(HttpStatusCode.Created, created);
         }
 
-     /*   [HttpPut]
-        [Route("")]
-        public HttpResponseMessage Update([FromBody] InventoryDTO dto)
-        {
-            var success = InventoryService.Update(dto);
-            if (!success)
-                return Request.CreateResponse(HttpStatusCode.NotFound);
-            return Request.CreateResponse(HttpStatusCode.OK, "Updated successfully");
-        }
-     */
         [HttpDelete]
         [Route("{id}")]
         public HttpResponseMessage Delete(int id)

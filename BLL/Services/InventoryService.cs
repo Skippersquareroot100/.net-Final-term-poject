@@ -57,20 +57,7 @@ namespace BLL.Services
                 LastUpdated = data.LastUpdated
             };
         }
-/*
-        public static bool Update(InventoryDTO dto)
-        {
-            var obj = new Inventory
-            {
-                InventoryId = dto.InventoryId,
-                WarehouseId = dto.WarehouseId,
-                ProductId = dto.ProductId,
-                LocationId = dto.LocationId,
-                Quantity = dto.Quantity
-            };
-            return DataAccessFactory.InventoryDataAccess().Update(obj);
-        }
-*/
+
         public static bool Delete(int id)
         {
             return DataAccessFactory.InventoryDataAccess().Delete(id);

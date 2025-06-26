@@ -12,7 +12,7 @@ namespace AppApi.Controllers
     [RoutePrefix("api/warehouses")]
     public class WarehouseController : ApiController
     {
-        // GET: api/warehouses
+       
         [HttpGet]
         [Route("")]
         public HttpResponseMessage GetAll()
@@ -28,7 +28,6 @@ namespace AppApi.Controllers
             }
         }
 
-        // GET: api/warehouses/5
         [HttpGet]
         [Route("{id}")]
         public HttpResponseMessage GetById(int id)
@@ -47,7 +46,7 @@ namespace AppApi.Controllers
             }
         }
 
-        // POST: api/warehouses
+
         [HttpPost]
         [Route("")]
         public HttpResponseMessage Create([FromBody] WarehouseDTO dto)
@@ -71,7 +70,6 @@ namespace AppApi.Controllers
 
      
 
-        // DELETE: api/warehouses/5
         [HttpDelete]
         [Route("{id}")]
         public HttpResponseMessage Delete(int id)
@@ -90,7 +88,6 @@ namespace AppApi.Controllers
             }
         }
 
-        // GET: api/warehouses/utilization-report
         [HttpGet]
         [Route("utilization-report")]
         public HttpResponseMessage GetUtilizationReport()

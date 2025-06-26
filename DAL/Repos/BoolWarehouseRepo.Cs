@@ -34,8 +34,8 @@ internal class BoolWarehouseRepo : IRepo<Warehouse, int, bool>
     public bool Update(Warehouse obj)
     {
         var result = _repo.Update(obj);
-        return result != null; // Or whatever success condition
+        return result != null; 
     }
 
-    // Implement other interface members...
+   
 }

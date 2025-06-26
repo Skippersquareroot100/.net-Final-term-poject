@@ -7,7 +7,7 @@ namespace BLL.Services
 {
     public class LocationService
     {
-        // Feature 1: Get all locations
+        
         public static List<LocationDTO> Get()
         {
             var data = DataAccessFactory.LocationDataAccess().Get();
@@ -26,7 +26,7 @@ namespace BLL.Services
             return list;
         }
 
-        // Feature 2: Get single location by ID
+       
         public static LocationDTO Get(int id)
         {
             var item = DataAccessFactory.LocationDataAccess().Get(id);
@@ -41,7 +41,7 @@ namespace BLL.Services
             };
         }
 
-        // Feature 3: Add new location
+       
         public static LocationDTO Add(LocationDTO dto)
         {
             var obj = new Location()
@@ -63,13 +63,12 @@ namespace BLL.Services
             };
         }
 
-        // Feature 4: Delete location
+   
         public static bool Delete(int id)
         {
             return DataAccessFactory.LocationDataAccess().Delete(id);
         }
 
-        // Feature 5: Update location
         public static LocationDTO Update(LocationDTO dto)
         {
             var obj = new Location()
@@ -85,7 +84,7 @@ namespace BLL.Services
             return dto;
         }
 
-        // Feature 6: Get locations by warehouse
+       
         public static List<LocationDTO> GetByWarehouse(int warehouseId)
         {
             var data = DataAccessFactory.LocationDataAccess().Get()
@@ -105,7 +104,7 @@ namespace BLL.Services
             return list;
         }
 
-        // Feature 7: Location utilization report
+        
         public static List<LocationUtilizationDTO> GetUtilizationReport()
         {
             var locations = DataAccessFactory.LocationDataAccess().Get();
